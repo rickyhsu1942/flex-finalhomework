@@ -1,0 +1,49 @@
+body {
+    font-family: PingFangTC-Semibold, sans-serif;
+}
+
+.wrap {
+    max-width: 1138px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 553px;
+    height: 806px;
+    border-radius: 15px;
+    background-color: #e7eeea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 553px;
+    height: 806px;
+    border-radius: 15px;
+    background-color: #e7eeea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content>h2 {
+    color: #37523d;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 38px 39px 38px;
+}
+
+.content>p {
+    font-size: 24px;
+    margin: 0px 38px 39px 38px;
+}
+
+.content>h3 {
+    color: #37523d;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 38px;
+}

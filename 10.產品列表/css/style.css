@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: PingFangTC-Semibold, sans-serif;
+}
+
+.wrap {
+    max-width: 948px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu>ul {
+    width: 297px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.menu>ul>li>h2 {
+    color: #ffffff;
+    background-color: #37523d;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 21px 0px;
+}
+
+.menu>ul>li>a {
+    display: block;
+    color: #37523d;
+    background-color: #ffffff;
+    border: 1px solid #e7eeea;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 21px 0px;
+}
+
+.menu>ul>li>a:hover {
+    background-color: #e7eeea;
+}
+
+.content-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-items>li {
+    margin-bottom: 16px;
+}
+
+.content-items-fontContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-items-fontContent>li {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e7eeea;
+}
+
+.content-items-fontContent>li>h2 {
+    color: #37523d;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.content-items-fontContent>li>p {
+    color: #37523d;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.items-addShoppingCard {
+    display: block;
+    text-align: center;
+    color: #37523d;
+    background-color: #e7eeea;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.items-addShoppingCard:hover {
+    color: #e7eeea;
+    background-color: #37523d;
+}

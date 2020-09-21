@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: PingFangTC-Semibold, sans-serif;
+}
+
+.wrap {
+    max-width: 856px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.leftContent {
+    background-color: #b3d4d1;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.leftContent>p {
+    color: #ffffff;
+    font-size: 29px;
+    line-height: 40px;
+}
